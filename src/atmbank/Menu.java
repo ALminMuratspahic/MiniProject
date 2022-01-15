@@ -43,7 +43,7 @@ public class Menu extends Acc {
 
 	private void startMenu() {
 		System.out.println("Select number from the list: ");
-		System.out.println(" 1 - View Account Balance.");
+		System.out.println(" 1 - View Account Balance");
 		System.out.println(" 2 - Make Depozit");
 		System.out.println(" 3 - Make Withdraw");
 		System.out.println(" 4 - Convert Value");
