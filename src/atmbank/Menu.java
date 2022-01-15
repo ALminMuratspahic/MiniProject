@@ -42,7 +42,6 @@ public class Menu extends Acc {
 	}
 
 	private void startMenu() {
-		
 		System.out.println("Select number from the list: ");
 		System.out.println(" 1 - View Account Balance.");
 		System.out.println(" 2 - Make Depozit");
@@ -81,9 +80,6 @@ public class Menu extends Acc {
 			System.out.println("Illega choices");
 			startMenu();
 		}	
-		
-	
-		
 	}
 	
 	public void subMenuConvert() {
@@ -109,7 +105,6 @@ public class Menu extends Acc {
 			System.out.println("Please input number from list.");
 			subMenuConvert();
 		}
-		
 	}
 
 }
