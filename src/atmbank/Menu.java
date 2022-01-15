@@ -47,7 +47,7 @@ public class Menu extends Acc {
 		System.out.println(" 1 - View Account Balance.");
 		System.out.println(" 2 - Make Depozit");
 		System.out.println(" 3 - Make Withdraw");
-		System.out.println(" 4 - Conver Value");
+		System.out.println(" 4 - Convert Value");
 		System.out.println(" 5 - Exit");
 		System.out.println("Your input: ");
 		select=menuInput.nextInt();
@@ -88,7 +88,7 @@ public class Menu extends Acc {
 	
 	public void subMenuConvert() {
 		
-		System.out.println("1 - Conver to EUR");
+		System.out.println("1 - Convert to EUR");
 		System.out.println("2 - Convert to AUD");
 		
 		select=menuInput.nextInt();
