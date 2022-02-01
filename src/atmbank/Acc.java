@@ -44,7 +44,7 @@ public class Acc {
 		System.out.printf("Account Balance is: %.2f KM\n",accBalance);
 		System.out.println("Input how much money you want to DEPOZIT: ");
 		double amount=inputCustomer.nextDouble();
-		calculateDepozit(accBalance+amount);
+		calculateDepozit(amount);
 		System.out.printf("Now Your Account Balance is : %.2fKM\n ",accBalance);		
 	}
 	
